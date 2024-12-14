@@ -14,3 +14,7 @@ Specifically, it computes the following:
 </u>Output:</u>
 * A table containing the calculation results.
 * A bar plot graph showing the fold change across the samples.
+
+<p align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/800px-Python-logo-notext.svg.png" alt="python" width="100" style="border-radius: 15px;">
+</p>
