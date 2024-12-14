@@ -1,4 +1,4 @@
-# qPCR Resulrs Analasis
+# qPCR Results Analysis
 This repository contains a Python tool designed to analyze qPCR (quantitative Polymerase Chain Reaction) data. 
 The tool takes an Excel file with qPCR results and the name of the refernce gene as input and generates a table and visualization of key analysis metrics. 
 Specifically, it computes the following:
