@@ -1,6 +1,6 @@
 # qPCR Results Analysis
 This repository contains a Python tool designed to analyze qPCR (quantitative Polymerase Chain Reaction) data. 
-The tool takes an Excel file with qPCR results and the name of the refernce gene as input and generates a table and visualization of key analysis metrics. 
+The tool takes an Excel file with qPCR results and the name of the refernce gene as inputs and generates a table and visualization of key analysis metrics. 
 Specifically, it computes the following:
 * Delta Ct (ΔCt): The difference in Ct values between the target gene and the reference gene.
 * Delta-Delta Ct (ΔΔCt): The difference in ΔCt values between the experimental and control groups.
