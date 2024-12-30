@@ -10,29 +10,50 @@ qPCR, also known as real-time PCR, is a molecular biology technique used to ampl
 
 For more imformation about qPCR, here is a [link](https://www.youtube.com/watch?v=iu4s3Hbc_bw) for a video showing the techniqe.
 
-Here is an example for qPCR curse result:
+Here is an example for qPCR curve result:
 <p align="center">
-  <img src="https://www.researchgate.net/profile/Min_Kang37/post/qPCR-amplification-curve-height-difference-in-standard-curve/attachment/59d626fb6cda7b8083a23f06/AS%3A523314999160832%401501779426616/download/2.png" alt="qPCR" width="100" style="border-radius: 15px;">
+  <img src="qPCR curve 2.png" alt="qPCR" width="500" style="border-radius: 15px;">
 </p>
 
+A qPCR curve graph represents the amplification process of DNA during quantitative PCR. It plots the fluorescence signal (y-axis), which corresponds to the amount of amplified DNA, against the cycle number (x-axis). 
+The graph typically consists of three phases:
+1. **Baseline Phase:** At the start, the fluorescence signal is low and indistinguishable from background noise. This is because the amount of amplified DNA is too small to detect.
+2. **Exponential Phase:** As the reaction progresses, the DNA amplification enters a phase of exponential growth. During this phase, the fluorescence signal increases significantly.
+3. **Plateau Phase:** Eventually, the reaction components become limiting, and the amplification slows down. The fluorescence signal plateaus, reflecting the reaction's saturation point.
+The Cycle Threshold (CT) value is a key feature of the graph. It is the cycle number at which the fluorescence signal surpasses a predefined threshold set above the baseline noise. 
 
+## The code workflow:
+### User Input:
+* Excel file containing qPCR Ct values for all samples.
+* Reference Gene name
+  -  Reference gene: The gene that eas used as a control in the expirament.
+* Target gene Names
+  -  Target gene: The expirament samples.
+* Names and number of the samples (Treaded samples and control samples).
+* Number of replicates
 
+### Analyzing data:
+* Extracts from Excel file the relevant data- sample name, target name, CT values.
+* Calulate CT mean for replicas for referace gene.
+* Computes the following:
+  - Delta Ct (ΔCt): The difference in Ct values between the target gene and the reference gene.
+  - Delta-Delta Ct (ΔΔCt): The difference in ΔCt values between the experimental and control groups.
+  - Fold Change: The 2^(-ΔΔCt) calculation, which indicates the relative change in gene expression.
+* Cheking controls samples.
 
-The tool takes an Excel file with qPCR results and the name of the refernce gene as inputs and generates a table and visualization of key analysis metrics. 
-Specifically, it computes the following:
-* Delta Ct (ΔCt): The difference in Ct values between the target gene and the reference gene.
-* Delta-Delta Ct (ΔΔCt): The difference in ΔCt values between the experimental and control groups.
-* Fold Change: The 2^(-ΔΔCt) calculation, which indicates the relative change in gene expression.
-  
-## Features:
-</u>Input:</u> 
-* Excel file containing qPCR Ct values for both the target and reference genes.  
-* Reference gene name. 
-
-</u>Output:</u>
+### Output:
 * A table containing the calculation results.
 * A bar plot graph showing the fold change across the samples.
 
+## How to run the program?
+**ADD**
+
+## Packages Required:
+**ADD**
+
+## Tests:
+**ADD**
+  
 <p align="center">
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/800px-Python-logo-notext.svg.png" alt="python" width="100" style="border-radius: 15px;">
 </p>
