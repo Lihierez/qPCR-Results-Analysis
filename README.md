@@ -34,13 +34,18 @@ The program accepts a YAML configuration file containing the following informati
 * Number of Replicates
 
 ### Analyzing data:
-* Extracts from Excel file the relevant data- sample name, target name, CT values.
-* Calulate CT mean for replicas for referace gene.
-* Computes the following:
-  - Delta Ct (ΔCt): The difference in Ct values between the target gene and the reference gene.
-  - Delta-Delta Ct (ΔΔCt): The difference in ΔCt values between the experimental and control groups.
-  - Fold Change: The 2^(-ΔΔCt) calculation, which indicates the relative change in gene expression.
-* Cheking controls samples.
+* Extracts relevant data from Excel file (sample name, target name, CT values)
+* Calculates mean CT values for reference gene replicates
+* Performs key calculations:
+  - Delta Ct (ΔCt): Difference between target and reference gene Ct values
+  - Delta-Delta Ct (ΔΔCt): Difference in ΔCt between experimental and control groups
+  - Fold Change: 2^(-ΔΔCt) calculation showing relative gene expression changes
+* Validates control samples
+* Statistical Analysis:
+  - Performs ANOVA test for each target gene
+  - Generates bar plots with statistical significance indicators
+  - Shows mean values with standard error bars
+  - Displays individual data points for replicates
 
 ### Output:
 * A table containing the calculation results.
