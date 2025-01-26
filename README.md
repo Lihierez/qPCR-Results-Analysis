@@ -24,13 +24,14 @@ The Cycle Threshold (CT) value is a key feature of the graph. It is the cycle nu
 
 ## The code workflow:
 ### User Input:
-* Excel file containing qPCR Ct values for all samples.
-* Reference Gene name
-  -  Reference gene: The gene that eas used as a control in the expirament.
-* Target gene Names
-  -  Target gene: The expirament samples.
-* Names and number of the samples (Treaded samples and control samples).
-* Number of replicates
+The program accepts a YAML configuration file containing the following information:
+* Path to Excel file containing qPCR Ct values for all samples
+* Reference Gene Name
+  - Reference gene: The gene used as a control in the experiment
+* Target Gene Names
+  - Target genes: The experimental samples being analyzed
+* Control Sample Names
+* Number of Replicates
 
 ### Analyzing data:
 * Extracts from Excel file the relevant data- sample name, target name, CT values.
