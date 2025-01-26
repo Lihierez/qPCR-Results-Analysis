@@ -52,10 +52,24 @@ The program accepts a YAML configuration file containing the following informati
 * A bar plot graphs showing the fold change in each sample.
 
 ## How to run the program?
-**ADD**
+To run the program, use the following command in the terminal:
+```
+python qpcr_analysis.py -c /path/to/your/config_file.yaml
+```
 
 ## Packages Required:
-**ADD**
+Necessary packeges: 
+pandas
+numpy
+scipy
+matplotlib
+pyyaml
+argparse
+
+To install all required packages, run:
+```
+pip install -r Required packages.txt
+```
 
 ## Tests:
 **ADD**
