@@ -48,8 +48,8 @@ The program accepts a YAML configuration file containing the following informati
   - Displays individual data points for replicates
 
 ### Output:
-* A table containing the calculation results.
-* A bar plot graph showing the fold change across the samples.
+* CSV table containing the key calculations.
+* A bar plot graphs showing the fold change in each sample.
 
 ## How to run the program?
 **ADD**
