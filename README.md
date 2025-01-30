@@ -70,7 +70,13 @@ To install all required packages, run:
 ```
 pip install -r Required packages.txt
 ```
+## Important Notice:
+* This application specializes in analyzing relative gene expression data from qPCR experiments
+* Standard curve generation and analysis are not supported in this version
+* Users should independently validate all results
 
+## Acknowledgment:
+Developed as a student project in the Python Programming Course at the Weizmann Institute of Science, led by Gabor Szabo.
   
 <p align="center">
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/800px-Python-logo-notext.svg.png" alt="python" width="100" style="border-radius: 15px;">
