@@ -20,6 +20,7 @@ The graph typically consists of three phases:
 1. **Baseline Phase:** At the start, the fluorescence signal is low and indistinguishable from background noise. This is because the amount of amplified DNA is too small to detect.
 2. **Exponential Phase:** As the reaction progresses, the DNA amplification enters a phase of exponential growth. During this phase, the fluorescence signal increases significantly.
 3. **Plateau Phase:** Eventually, the reaction components become limiting, and the amplification slows down. The fluorescence signal plateaus, reflecting the reaction's saturation point.
+
 The Cycle Threshold (CT) value is a key feature of the graph. It is the cycle number at which the fluorescence signal surpasses a predefined threshold set above the baseline noise. 
 
 ## The code workflow:
