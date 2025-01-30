@@ -28,7 +28,7 @@ The Cycle Threshold (CT) value is a key feature of the graph. It is the cycle nu
 The program accepts a YAML configuration file containing the following information:
 * Path to Excel file containing qPCR Ct values for all samples
 * Reference Gene Name
-  - Reference gene: The gene used as a control in the experiment
+  - Reference gene: The gene used for normalization in the experiment
 * Target Gene Names
   - Target genes: The experimental samples being analyzed
 * Control Sample Names
