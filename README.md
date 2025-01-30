@@ -54,7 +54,7 @@ The program accepts a YAML configuration file containing the following informati
 ## How to run the program?
 To run the program, use the following command in the terminal:
 ```
-python qpcr_analysis.py -c /path/to/your/config_file.yaml
+python qpcr_analysis.py -c /path/to/your/config_file.yaml --plots yes/no
 ```
 
 ## Packages Required:
@@ -71,8 +71,6 @@ To install all required packages, run:
 pip install -r Required packages.txt
 ```
 
-## Tests:
-**ADD**
   
 <p align="center">
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/800px-Python-logo-notext.svg.png" alt="python" width="100" style="border-radius: 15px;">
