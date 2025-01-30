@@ -59,12 +59,18 @@ python qpcr_analysis.py -c /path/to/your/config_file.yaml --plots yes/no
 ```
 
 ## Packages Required:
-Necessary packeges: 
+Necessary packeges:
+
 pandas
+
 numpy
+
 scipy
+
 matplotlib
+
 pyyaml
+
 argparse
 
 To install all required packages, run:
