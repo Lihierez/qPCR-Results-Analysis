@@ -1,0 +1,27 @@
+# qPCR Analysis Configuration File
+
+# Input File Path
+input_file: "qPCR_results.xlsx"
+
+# Reference Gene Information
+reference_gene:
+  name: "ACTB"
+
+# Target Genes Information
+target_genes:
+  - name: "SOX2"
+  - name: "TBXT"
+  - name: "HAND1"
+  - name: "PRRX1"
+  # Add more target genes as needed
+
+# Control Information
+control:
+  - name: "NCT"
+  - name: "NRT"
+
+# Experimental Setup
+replicates:
+  number: 3
+  technical: true  # Set to true if using technical replicates
+
